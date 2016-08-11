@@ -1,11 +1,19 @@
 {
   "name": "chihuahua",
   "version": "1.0.0",
-  "description": "Search codes in some branches of some repositories ",
+  "description": "Search codes or count lines in git repositories ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Unaheidi",
-  "license": "ISC"
+  "author": "su_l",
+  "license": "ISC",
+  "dependencies": {
+    "dir-util": "0.0.3",
+    "exceljs": "^0.2.13",
+    "file-rw": "^0.1.0",
+    "gitty": "^3.3.6",
+    "underscore": "^1.8.3",
+    "xlsx": "^0.8.0"
+  }
 }
